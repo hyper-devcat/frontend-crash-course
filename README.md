@@ -1,4 +1,4 @@
-![image](https://github.com/hyper-devcat/frontend-crash-course/blob/main/src/assets/img/final.jpg)
+![image](https://github.com/hyper-devcat/frontend-crash-course/blob/main/assignment%200/src/assets/img/final.jpg)
 
 # plant-shop
 
