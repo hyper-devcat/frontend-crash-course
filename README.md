@@ -1,7 +1,5 @@
 Practice 1 | Practice 2
 
-![image](https://github.com/hyper-devcat/frontend-crash-course/blob/main/assignment%200/src/assets/img/final.jpg)
-
 # plant-shop
 
 ## Project setup
