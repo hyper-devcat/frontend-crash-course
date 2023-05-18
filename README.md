@@ -1,4 +1,5 @@
 Practice 1 | Practice 2
+https://hyper-devcat.github.io/vite-todolist-app/
 
 ![image](https://github.com/hyper-devcat/frontend-crash-course/blob/main/assignment%200/src/assets/img/final.jpg)
 
