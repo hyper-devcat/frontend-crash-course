@@ -1,1 +1,1 @@
-[Practice 1](https://hyper-devcat.github.io/assignment-3/) | Practice 2
+[Practice 1](https://hyper-devcat.github.io/Practice-01/) | Practice 2
