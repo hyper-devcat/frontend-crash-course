@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h2>Parctice 2-1 : Show a random activity suggestion with a button</h2>
+      <button class="button" onclick="refreshBored()">
+        Get some suggestions
+      </button>
+      <p id="activitie"></p>
+    </div>
+    <div>
+      <h2>
+        Practice 2-2 : Predict the age of a person's name with a query string
+      </h2>
+      <p class="ageQuestion">What's your name?</p>
+      <label for="name"></label>
+      <input type="text" id="nameInput" name="name" onblur="getValue()" />
+      <input type="submit" value="SEND" />
+      <div>
+        <p id="paragraph">
+          I guess that <span id="nameOutput">_______</span> is
+          <span id="ageOutput">？</span> years old.
+        </p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

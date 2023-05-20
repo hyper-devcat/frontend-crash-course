@@ -10,7 +10,7 @@ const person = {
   name: "Lisa",
   age: 26,
   gender: "F",
-  greet: function () {
+  greet: () => {
     console.log("Hello");
   },
   friends: ["Jennie", "Jisoo", "Rosé"],

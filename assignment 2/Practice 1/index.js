@@ -36,6 +36,13 @@ for (const fruit of fruits) {
   console.log(fruit);
 }
 
+let i = 0;
+
+while (i < fruits.length) {
+  console.log(fruits);
+  i++;
+}
+
 // 7. Declare a array called numbers and set each element to its squared using map.
 console.log(
   "7. Declare a array called numbers and set each element to its squared using map."
