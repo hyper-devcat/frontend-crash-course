@@ -23,7 +23,7 @@ function getValue() {
   fetch("https://api.agify.io?name=" + name, { methods: "GET" })
     .then((response) => response.json())
     .then((data) => {
-      if (data) {
+      if (data.age) {
         console.log(data);
         // Get data age & name
         const getAge = data.age;
@@ -35,13 +35,16 @@ function getValue() {
         ageOutput.textContent = getAge;
         nameOutput.textContent = getName;
         // Clear the value of input
-        document.getElementById("nameInput").value = "";
+        document.getElementById("nameInput").value = "Enter a name";
       } else {
         // Catch the message where I want to replace and set the message
         let el = document.querySelector("#paragraph");
         let notice = "Please try another name.";
         // Replace the message
         el.innerHTML = "<p>" + notice + "</p>";
+        setTimeout(() => {
+          location.reload();
+        }, 2000);
       }
     })
     .catch((error) => {
